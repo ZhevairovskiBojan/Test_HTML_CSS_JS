@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    box-sizing: border-box;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.card-container{
+    width: 600px;
+    height: 500px;
+    background-color: whitesmoke;
+    margin: 100px auto;
+    border-radius: 20px;
+    position: relative;
+}
+
+.image{
+height: 360px;
+background-image:url(/exam_files/bg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 20px;
+}
+
+
+.button-wrapper{
+    width: 600px;
+    height: 28px;
+    position: relative;
+    margin: o auto;
+    display: flex;
+    justify-content: space-between;
+    top: 10px;
+    align-content:space-evenly;
+    padding: 14px;
+}
+
+.btn_open{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    color: #4CD964;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.btn_rating{
+    width: 90px;
+    height: 40px;
+    background-color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    border-radius: 6px;
+}
+
+h5{
+font-weight: lighter;
+color: #848DFF;
+}
+
+.left_cont{
+    padding: 30px 0 0 30px;
+}
+
+.top_heading{
+    width: 380px;
+    margin-bottom: 14px;
+    display: flex;
+}
+
+.main_title{
+    color: #3E3F68;
+}
+
+.btn{
+    margin-left: 12px;
+}
+
+.sub_title{
+    color: #8A98BA;
+}
+
+.right_cont {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+}
+
+.small-image img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
